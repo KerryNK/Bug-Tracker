@@ -4,6 +4,8 @@ const bugRoutes = require('./routes/bugRoutes');
 const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
+const express = require('express');
+
 
 // Middleware
 app.use(express.json());

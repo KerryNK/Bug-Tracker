@@ -6,7 +6,6 @@ const errorHandler = require('./middleware/errorHandler');
 const app = express();
 const express = require('express');
 
-
 // Middleware
 app.use(express.json());
 app.use('/api/bugs', bugRoutes);
